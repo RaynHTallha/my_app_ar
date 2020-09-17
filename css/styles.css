@@ -2,6 +2,10 @@
   padding: 1px;
 }
 
+.card {
+  margin-top: 25px;
+}
+
 .card-deck {
   margin: 15px 3px;
 }

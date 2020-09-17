@@ -19,13 +19,13 @@
   <div class="card-header text-light text-center bg-dark col">
     تسجيل الدخول
   </div>
-    <form class="card-body mx-auto rtl">
+    <form class="card-body mx-auto rtl" action="includes/login.inc.php" method="post">
   <div class="form-group">
     <div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text bg-dark text-light border-dark" id="inputGroup-sizing-default">اسم المستخدم</span>
   </div>
-  <input type="text" class="form-control border-dark" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  <input type="text" name="mailuid" class="form-control border-dark">
 </div>
   </div>
   <div class="form-group">
@@ -33,7 +33,7 @@
     <div class="input-group-prepend">
       <span class="input-group-text bg-dark text-light border-dark" id="inputGroup-sizing-pwd">كلمة المرور</span>
     </div>
-    <input type="password" class="form-control border-dark" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    <input type="password" name="pwd" class="form-control border-dark">
   </div>
   </div>
   <div class="form-group form-check">
@@ -42,7 +42,7 @@
     <input type="checkbox" class="form-check-input" id="showpwd-check">
     <label class="form-check-label" for="exampleCheck1">اظهار كلمة المرور</label>
   </div>
-  <button type="submit" class="btn btn-dark col">تسجيل الدخول</button>
+  <button type="submit" name="login-submit"class="btn btn-dark col">تسجيل الدخول</button>
 </form>
 </div>
     <!-- Optional JavaScript -->
