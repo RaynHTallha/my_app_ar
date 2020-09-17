@@ -1,0 +1,18 @@
+.nav-link{
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  &:hover{
+    background-color: #ffffff;
+    color: #212529 !important;
+  }
+}
+.navbar{
+  padding: 0;
+}
+
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+}

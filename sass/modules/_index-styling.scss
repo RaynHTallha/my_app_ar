@@ -1,0 +1,41 @@
+body{
+    font-weight: 500 !important;
+}
+.card{
+  padding: 0;
+}
+
+.card-header{
+
+  font-size: 22px;
+
+}
+.form-control{
+  border-top-left-radius: .25rem !important;
+  border-bottom-left-radius: .25rem !important;
+}
+
+.input-group-text{
+    font-weight: 500 ;
+    border-top-right-radius: .25rem !important;
+    border-bottom-right-radius: .25rem !important;
+}
+
+.form-check-label{
+  margin-left: 25px;
+}
+
+
+#inputGroup-sizing-pwd{
+  padding-left: 34px;
+}
+
+.btn-dark{
+  font-weight: 500;
+  border: 2px solid transparent;
+  &:hover{
+    background-color: #ffffff !important;
+    color: #212529;
+
+  }
+}
