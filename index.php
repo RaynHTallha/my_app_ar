@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" >
 
-    <title>المركز الهندسي التقني</title>
+    <title>تسجيل الدخول - المركز الهندسي التقني</title>
   </head>
   <body>
     <?php include "modules/header.php" ?>
-
+    <?php include "includes/alerts.inc.php" ?>
     <div class="card border-secondary  container-sm w-75">
   <div class="card-header text-light text-center bg-dark col">
     تسجيل الدخول

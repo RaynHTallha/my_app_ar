@@ -1,7 +1,7 @@
-<?php session_start();?>
-<?php include "../modules/header.php" ?>
-<?php include "../modules/navbar.php" ?>
-<?php
+ <?php session_start();?>
+ <?php include "../modules/header.php" ?>
+ <?php include "../modules/navbar.php" ?>
+ <?php
 if (isset($_SESSION['userId'])){
 echo '<!doctype html>
 <html lang="en" dir="rtl">
@@ -15,31 +15,35 @@ echo '<!doctype html>
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css" >
 
-    <title>المركز الهندسي التقني</title>
+    <title>تسجيل مستخدم - المركز الهندسي التقني</title>
   </head>
   <body class="rtl">
+
+
 <!-------------------------------------------------content------------------------------------------------------------->
-
-<div class="card-deck">
-  <div class="card border-secondary  container-sm w-75">
-  <div class="card-header text-light text-center bg-dark col"> ادخال البيانات</div>
-  <div class="card-body mx-auto rtl"></div>
+<div class="card border-secondary  container-sm w-75">
+<div class="card-header text-light text-center bg-dark col">
+انشاء المستخدم
+</div>
+<form class="card-body mx-auto rtl" action="../includes/signup.inc.php" method="post">
+  <div class="form-group">
+    <label for="usr">اسم المستخدم:</label>
+    <input type="text" class="form-control" name="uid">
   </div>
-
-
-  <div class="card border-secondary  container-sm w-75">
-  <div class="card-header text-light text-center bg-dark col"> طباعه التقارير</div>
-  <div class="card-body mx-auto rtl"></div>
+  <div class="form-group">
+  <label for="usr">الايميل:</label>
+  <input type="text" class="form-control" name="mail">
+</div>
+<div class="form-group">
+  <label for="pwd">كلمة المرور:</label>
+  <input type="password" class="form-control" name="pwd">
+</div>
+  <div class="form-group">
+    <label for="pwd">اعد كلمة المرور:</label>
+    <input type="password" class="form-control" name="pwd-repeat">
   </div>
-
-
-  <div class="card border-secondary  container-sm w-75">
-  <div class="card-header text-light text-center bg-dark col"> روابط سريعه </div>
-  <div class="card-body rtl">
-    <button type="submit" name="mkusr-submit" class="btn btn-outline-dark "> انشاء مستخدم</button>
-    <h6>لاضافة مستخدم جديد للبرنامج فقط ولا يمكن حذف او تغييرمستخدم من هنا.</h6>
-  </div>
-  </div>
+<button type="submit" name="signup-submit"class="btn btn-dark col">التسجيل</button>
+</form>
 </div>
 
 

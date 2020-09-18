@@ -70,4 +70,19 @@ body {
   border-radius: 0 !important;
 }
 
+.nav-btn {
+  padding: 0px;
+  border-radius: 0;
+  border: none;
+}
+.nav-btn a:hover {
+  background-color: #ffffff !important;
+}
+.nav-btn:hover {
+  background-color: #ffffff !important;
+  border-color: #343a40;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
 /*# sourceMappingURL=styles.css.map */

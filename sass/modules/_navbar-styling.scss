@@ -16,3 +16,22 @@
   outline: none !important;
   border-radius: 0 !important;
 }
+
+.nav-btn{
+  padding: 0px;
+  a{
+    
+    &:hover{
+      background-color: #ffffff !important;
+
+    }
+  }
+  border-radius: 0;
+  border: none;
+  &:hover{
+    background-color: #ffffff !important;
+    border-color: #343a40;
+    border-radius: 0!important;
+    border: none !important;
+  }
+}
