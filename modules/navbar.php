@@ -20,7 +20,7 @@
   <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
     <div class="navbar-nav ">
       <form action="../includes/logout.inc.php" method="post">
-      <button class="btn nav-btn btn-dark"type="submit" name="logout-submit"> <a class="nav-link active">تسجيل خروج</a></button>
+      <button class="btn nav-btn btn-dark mx-auto col"type="submit" name="logout-submit"> تسجيل خروج</button>
     </form>
       <a class="nav-link active navbar-toggler" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">X</a>
     </div>

@@ -23,21 +23,60 @@ echo '<!doctype html>
 <div class="card-deck">
   <div class="card border-secondary  container-sm w-75">
   <div class="card-header text-light text-center bg-dark col"> ادخال البيانات</div>
-  <div class="card-body mx-auto rtl"></div>
+  <div class="card-body mx-auto rtl">
+
+
+  <a class="btn btn-outline-dark form-group col" href="signup.php">إضافة كرت عمل</a>
+  <h6 class="form-group">اضافه كرت عمل تحتاج لبيانات مسجله مسبقا(مثال :بيانات العميل او الشركة)اذا اردت انشاء كرت عمل بدون الحاجه لبيانات مسبقا اذهب الى الروابط السريعه .</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">تسجيل عميل</a>
+  <h6 class="form-group">لاضافه بيانات عميل لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">اضافة براند</a>
+  <h6 class="form-group">لاضافه بيانات علامه تجارية لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">اضافة موديل</a>
+  <h6 class="form-group">لاضافه بيانات موديلات لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
   </div>
 
 
+  </div>
+
+<!---------------------------->
   <div class="card border-secondary  container-sm w-75">
   <div class="card-header text-light text-center bg-dark col"> طباعه التقارير</div>
-  <div class="card-body mx-auto rtl"></div>
+  <div class="card-body mx-auto rtl">
+
+
+  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه تسعيرة</a>
+  <h6 class="form-group">لطباعه تسعيرة مع امكانيه طباعه صور للاعطال ان وجدت.<br><br><br></h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه فاتورة</a>
+  <h6 class="form-group">لطباعه فاتورة اصلاح بدون صور للاعطال.<br><br></h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه مطالبة ماليه</a>
+  <h6 class="form-group">لطباعه خطاب مطالبه ماليه مع بيان السيارات المشموله في المده المحدده.</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">عرض كروت العمل </a>
+  <h6 class="form-group">لعرض جميع كروت الإصلاح وفلترتها حسب الرغبه.</h6>
+
+
+
+
+  </div>
   </div>
 
-
+<!------------------------>
   <div class="card border-secondary  container-sm w-75">
   <div class="card-header text-light text-center bg-dark col"> روابط سريعه </div>
   <div class="card-body rtl">
-    <button type="submit" name="mkusr-submit" class="btn btn-outline-dark "> انشاء مستخدم</button>
-    <h6>لاضافة مستخدم جديد للبرنامج فقط ولا يمكن حذف او تغييرمستخدم من هنا.</h6>
+
+
+  <a class="btn btn-outline-dark form-group col" href="signup.php">انشاء كرت سريع</a>
+  <h6 class="form-group">لانشاء كرت عمل بدون الحاجه لبيانات مسبقه.<br><br><br></h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">انشاء مستخدم</a>
+  <h6 class="form-group">لاضافة مستخدم جديد للبرنامج فقط ولا يمكن حذف او تغييرمستخدم من هنا.</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">حاسبة بسيطه</a>
+  <h6 class="form-group">لحساب الضريبة و القيام ببعض العمليات الحسابية البسيطه.</h6>
+  <a class="btn btn-outline-dark form-group col" href="signup.php">جدول المهام و المواعيد</a>
+  <h6 class="form-group">اداه بسيطه للمساعده على ترتيب المهام اليوميه.</h6>
+
+
+
   </div>
   </div>
 </div>

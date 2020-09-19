@@ -18,16 +18,12 @@
 }
 
 .nav-btn{
-  padding: 0px;
-  a{
-    
-    &:hover{
-      background-color: #ffffff !important;
-
-    }
-  }
+  padding: 5px!important;
+  color: #ffffff;
   border-radius: 0;
   border: none;
+  display: flex;
+  justify-content: center;
   &:hover{
     background-color: #ffffff !important;
     border-color: #343a40;

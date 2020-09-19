@@ -10,12 +10,19 @@
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css" >
 
+
     <title>المركز الهندسي التقني</title>
   </head>
   <body class="rtl">
     <?php include "../modules/header.php" ?>
     <?php include "../modules/navbar.php" ?>
+    <?php include "../modules/modals.php" ?>
 <!-------------------------------------------------content------------------------------------------------------------->
+<p><br><br><br></p>
+<a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#QjobCard">press me</a>
+
+
+
 
 
 

@@ -1,6 +1,5 @@
  <?php session_start();?>
  <?php include "../modules/header.php" ?>
- <?php include "../modules/navbar.php" ?>
  <?php
 if (isset($_SESSION['userId'])){
 echo '<!doctype html>
@@ -42,7 +41,8 @@ echo '<!doctype html>
     <label for="pwd">اعد كلمة المرور:</label>
     <input type="password" class="form-control" name="pwd-repeat">
   </div>
-<button type="submit" name="signup-submit"class="btn btn-dark col">التسجيل</button>
+<button type="submit" name="signup-submit"class="btn btn-dark col form-group">التسجيل</button>
+<a class="btn btn-dark col " href="dashboard.php">رجوع</a>
 </form>
 </div>
 

@@ -25,7 +25,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text bg-dark text-light border-dark" id="inputGroup-sizing-default">اسم المستخدم</span>
   </div>
-  <input type="text" name="mailuid" class="form-control border-dark">
+  <input type="text" name="mailuid" id="mailuid" class="form-control border-dark">
 </div>
   </div>
   <div class="form-group">
@@ -35,12 +35,6 @@
     </div>
     <input type="password" name="pwd" class="form-control border-dark">
   </div>
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="remember-me-check">
-    <label class="form-check-label" for="exampleCheck1">تذكرني</label>
-    <input type="checkbox" class="form-check-input" id="showpwd-check">
-    <label class="form-check-label" for="exampleCheck1">اظهار كلمة المرور</label>
   </div>
   <button type="submit" name="login-submit"class="btn btn-dark col">تسجيل الدخول</button>
 </form>

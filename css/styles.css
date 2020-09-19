@@ -7,7 +7,12 @@
 }
 
 .card-deck {
-  margin: 15px 3px;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.card {
+  margin-top: 10px;
 }
 
 body {
@@ -71,17 +76,23 @@ body {
 }
 
 .nav-btn {
-  padding: 0px;
+  padding: 5px !important;
+  color: #ffffff;
   border-radius: 0;
   border: none;
-}
-.nav-btn a:hover {
-  background-color: #ffffff !important;
+  display: flex;
+  justify-content: center;
 }
 .nav-btn:hover {
   background-color: #ffffff !important;
   border-color: #343a40;
   border-radius: 0 !important;
+  border: none !important;
+}
+
+.close {
+  color: #ffffff !important;
+  outline: none !important;
   border: none !important;
 }
 
