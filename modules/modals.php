@@ -27,7 +27,39 @@
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">كرت عمل سريع</h4>
+          <h4 class="modal-title">انشاء كرت سريع</h4>
+          <button type="button" class="close" data-dismiss="modal"><span class="material-icons">close</span></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">حفظ</button>
+          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-------------------------------------------------simp-calc------------------------------------------------------------->
+
+<div class="container">
+
+  <!-- The Modal -->
+  <div class="modal fade" id="simp-calc">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header bg-dark text-light">
+          <h4 class="modal-title">حاسبة بسيطه</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -50,18 +82,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------task-man------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="task-man">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">جدول المهام و المواعيد</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -84,18 +116,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------print-price------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="print-price">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">طباعه تسعيره</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -118,18 +150,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------print-invoice------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="print-invoice">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">طباعه فاتورة</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -152,18 +184,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------print-Minvoice------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="print-Minvoice">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">طباعه مطالبة  ماليه</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -186,18 +218,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------view-jobcards------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="view-jobcards">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">عرض كروت العمل</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -220,18 +252,18 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------make-jobcard------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="make-jobcard">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">اضافة كرت عمل</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
@@ -254,33 +286,86 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------make-customer------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="make-customer">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">تسجيل عميل</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
         </div>
 
         <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
+        <form action="../includes/make-customer.inc.php" method="POST">
+        <div class="modal-body ">
+            <div class="form-row">
+              <div class="col">
+                <label class="font-weight-bold" for="cust_name_id">اسم العميل</label>
+                <input type="text" class="form-control font-weight-bold" name="cust_name" id="cust_name_id">
+                <label class="font-weight-bold" for="cust_email_id">ايميل العميل</label>
+                <input type="text" class="form-control font-weight-bold" name="cust_email" id="cust_email_id">
+              </div>
+              <div class="col">
+                <label class="font-weight-bold" for="cust_phone_id">رقم العميل</label>
+                <input type="text" class="form-control font-weight-bold" name="cust_phone" id="cust_phone_id">
+                <label class="font-weight-bold" for="cust_vatnum_id">الرقم الضريبي</label>
+                <input type="text" class="form-control font-weight-bold" name="cust_vatnum" id="cust_vatnum_id">
+              </div>
+            </div>
+
+
         </div>
 
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">حفظ</button>
+          <button type="submit" name="cust-submit" class="btn btn-dark col form-group" >حفظ</button>
           <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
         </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-------------------------------------------------make-brand------------------------------------------------------------->
+
+<div class="container">
+
+  <!-- The Modal -->
+  <div class="modal fade" id="make-brand">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header bg-dark text-light">
+          <h4 class="modal-title">اضافة براند</h4>
+          <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
+close
+</span></button>
+        </div>
+
+        <!-- Modal body -->
+        <form class="" action="../includes/make-brand.inc.php" method="post">
+          <div class="modal-body">
+            <label class="font-weight-bold" for="brnd_name_id">اسم البراند</label>
+            <input type="text" class="form-control font-weight-bold" name="brnd_name" id="brnd_name_id">
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-dark col form-group" name="brnd-submit">حفظ</button>
+            <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
+          </div>
+        </form>
 
       </div>
     </div>
@@ -288,101 +373,35 @@ close
 
 </div>
 
-<!-------------------------------------------------content------------------------------------------------------------->
+<!-------------------------------------------------make-model------------------------------------------------------------->
 
 <div class="container">
 
   <!-- The Modal -->
-  <div class="modal fade" id="myModal">
+  <div class="modal fade" id="make-model">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
         <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
+          <h4 class="modal-title">تعديل كرت عمل</h4>
           <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
 close
 </span></button>
         </div>
 
-        <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
-        </div>
+        <form class="" action="../includes/edit-jobcard.inc.php" method="post">
+          <!-- Modal body -->
+          <div class="modal-body">
 
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">حفظ</button>
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
-        </div>
+          </div>
 
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<!-------------------------------------------------content------------------------------------------------------------->
-
-<div class="container">
-
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl">
-      <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
-          <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
-close
-</span></button>
-        </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
-        </div>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">حفظ</button>
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<!-------------------------------------------------content------------------------------------------------------------->
-
-<div class="container">
-
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl">
-      <div class="modal-content">
-
-        <!-- Modal Header -->
-        <div class="modal-header bg-dark text-light">
-          <h4 class="modal-title">subject</h4>
-          <button type="button" class="close" data-dismiss="modal"><span class="material-icons">
-close
-</span></button>
-        </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
-        </div>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">حفظ</button>
-          <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
-        </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="submit"  name="edit-submit" class="btn btn-dark col form-group" >حفظ</button>
+            <button type="button" class="btn btn-dark col form-group" data-dismiss="modal">الغاء</button>
+          </div>
+        </form>
 
       </div>
     </div>

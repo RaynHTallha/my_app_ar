@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en" dir="rtl">
   <head>
@@ -19,7 +20,7 @@
     <?php include "../modules/modals.php" ?>
 <!-------------------------------------------------content------------------------------------------------------------->
 <p><br><br><br></p>
-<a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#QjobCard">press me</a>
+<a class="btn btn-outline-dark form-group col" href="../includes/test.inc.php">press me</a>
 
 
 

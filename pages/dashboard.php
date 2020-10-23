@@ -1,9 +1,8 @@
 <?php session_start();?>
 <?php include "../modules/header.php" ?>
 <?php include "../modules/navbar.php" ?>
-<?php
-if (isset($_SESSION['userId'])){
-echo '<!doctype html>
+<?php include "../modules/modals.php" ?>
+<!doctype html>
 <html lang="en" dir="rtl">
   <head>
     <!-- Required meta tags -->
@@ -26,14 +25,14 @@ echo '<!doctype html>
   <div class="card-body mx-auto rtl">
 
 
-  <a class="btn btn-outline-dark form-group col" href="signup.php">إضافة كرت عمل</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#make-jobcard">إضافة كرت عمل</a>
   <h6 class="form-group">اضافه كرت عمل تحتاج لبيانات مسجله مسبقا(مثال :بيانات العميل او الشركة)اذا اردت انشاء كرت عمل بدون الحاجه لبيانات مسبقا اذهب الى الروابط السريعه .</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">تسجيل عميل</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#make-customer">تسجيل عميل</a>
   <h6 class="form-group">لاضافه بيانات عميل لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">اضافة براند</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#make-brand">اضافة براند</a>
   <h6 class="form-group">لاضافه بيانات علامه تجارية لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">اضافة موديل</a>
-  <h6 class="form-group">لاضافه بيانات موديلات لاستخدامها  لاحقا دون الحاجه الى ادخالها في كل مره.</h6>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#make-model">تعديل كرت عمل</a>
+  <h6 class="form-group">لتعديل بيانات كرت مسجل.</h6>
   </div>
 
 
@@ -45,13 +44,13 @@ echo '<!doctype html>
   <div class="card-body mx-auto rtl">
 
 
-  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه تسعيرة</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#print-price">طباعه تسعيرة</a>
   <h6 class="form-group">لطباعه تسعيرة مع امكانيه طباعه صور للاعطال ان وجدت.<br><br><br></h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه فاتورة</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#print-invoice">طباعه فاتورة</a>
   <h6 class="form-group">لطباعه فاتورة اصلاح بدون صور للاعطال.<br><br></h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">طباعه مطالبة ماليه</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#print-Minvoice">طباعه مطالبة ماليه</a>
   <h6 class="form-group">لطباعه خطاب مطالبه ماليه مع بيان السيارات المشموله في المده المحدده.</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">عرض كروت العمل </a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#view-jobcards">عرض كروت العمل </a>
   <h6 class="form-group">لعرض جميع كروت الإصلاح وفلترتها حسب الرغبه.</h6>
 
 
@@ -66,13 +65,13 @@ echo '<!doctype html>
   <div class="card-body rtl">
 
 
-  <a class="btn btn-outline-dark form-group col" href="signup.php">انشاء كرت سريع</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#QjobCard">انشاء كرت سريع</a>
   <h6 class="form-group">لانشاء كرت عمل بدون الحاجه لبيانات مسبقه.<br><br><br></h6>
   <a class="btn btn-outline-dark form-group col" href="signup.php">انشاء مستخدم</a>
   <h6 class="form-group">لاضافة مستخدم جديد للبرنامج فقط ولا يمكن حذف او تغييرمستخدم من هنا.</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">حاسبة بسيطه</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#simp-calc">حاسبة بسيطه</a>
   <h6 class="form-group">لحساب الضريبة و القيام ببعض العمليات الحسابية البسيطه.</h6>
-  <a class="btn btn-outline-dark form-group col" href="signup.php">جدول المهام و المواعيد</a>
+  <a class="btn btn-outline-dark form-group col" type="Button" data-toggle="modal" href="#task-man">جدول المهام و المواعيد</a>
   <h6 class="form-group">اداه بسيطه للمساعده على ترتيب المهام اليوميه.</h6>
 
 
@@ -89,9 +88,3 @@ echo '<!doctype html>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
-';
-}else {
-  header("Location: ../index.php?nicetry!!");
-  exit();
-}
-  ?>

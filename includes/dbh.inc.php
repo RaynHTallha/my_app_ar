@@ -1,12 +1,15 @@
 <?php
 
 $servername = "localhost";
-$dBUsername = "root";
-$dBPassword = "";
+$username = "root";
+$password = "";
 $dBName = "loginsystemtut";
 
-$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
-if (!$conn) {
-  die("Connection failed: ".mysqli_connect_error());
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dBName);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
 }
